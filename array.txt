@@ -1,0 +1,22 @@
+Int main()
+{
+Int n,I,max,min
+Print f(“enter the no.of integer\n”);
+Scan f(“%d”,&n);
+Int a[n];
+For(I=0;I<n;I++)
+{
+Scan f(“%d;&a[I]);
+}
+Max=a[0];min=a[0];
+For(I=0;I<n;I++)
+{
+If(max<a[I])
+Max=a[I];
+Else
+If(a[I]<min)
+Min=a[I];
+}
+Print f(“%d is max and %d is min\n”,max,min);
+Return 0;
+}
